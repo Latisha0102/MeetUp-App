@@ -14,7 +14,7 @@ const eventSchema = new mongoose.Schema({
     price: String,
     ageRestrictions: String,
     tags: String,
-    speakers: [{type: String}]
+    speakers: [{name: String , position: String}]
 })
 
 const Event = mongoose.model("Event" , eventSchema)
