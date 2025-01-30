@@ -18,8 +18,8 @@ const Event = require("./model/event.model")
 
 async function getAllEvents(){
  try{
-    const event = await Event.find()
-    return event
+    const allEvents = await Event.find()
+    return allEvents
  }catch(error){
     console.log(error)
  }
@@ -27,15 +27,33 @@ async function getAllEvents(){
 app.get("/events" , async(req,res)=>{
        try{
         const event = await getAllEvents()
+      if(event.length != 0){
+        res.json(event)
+      }else{
+           res.send(400),json({message: "No event found"})
+      }
+        
        }catch(error){
-        res.status(400).json({error: "Error in retrieving data"})
+        res.status(500).json({error: "Error in retrieving data"})
        }
 })
 
+async function createEvent(newEvent){
+  try{
+    const event = new Event(newEvent)
+    const saveEvent= await event.save()
+    return saveEvent
+  }catch(error){
+    console.log(error)
+  }
+}
 app.post("/events", async (req,res) =>{
-    const newEvent = new Event(req.body)
-    await newEvent.save()
-    res.json(newEvent)
+   try{
+   const savedEvent = await createEvent(req.body)
+   res.status(201).json({message: "Event added successfully"})
+   }catch(error){
+    res.status(500).json({error: "Error in creating event"})
+   }
 })
 
 initializeDatabse()
