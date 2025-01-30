@@ -13,7 +13,7 @@ const eventSchema = new mongoose.Schema({
     dressCode: String,
     price: String,
     ageRestrictions: String,
-    tags: String,
+    tags: [{type: String}],
     speakers: [{name: String , position: String}]
 })
 

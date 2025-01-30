@@ -50,7 +50,7 @@ async function createEvent(newEvent){
 app.post("/events", async (req,res) =>{
    try{
    const savedEvent = await createEvent(req.body)
-   res.status(201).json({message: "Event added successfully"})
+   res.status(201).json({message: "Event added successfully" , event: savedEvent})
    }catch(error){
     res.status(500).json({error: "Error in creating event"})
    }
