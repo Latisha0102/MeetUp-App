@@ -58,7 +58,7 @@ app.post("/events", async (req,res) =>{
 
 initializeDatabse()
 
-PORT = 3000
+const PORT = 3000
 
 app.listen(PORT , () =>{
     console.log("SErver is running on",PORT)
