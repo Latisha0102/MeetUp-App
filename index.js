@@ -58,6 +58,27 @@ app.post("/events", async (req,res) =>{
 
 initializeDatabse()
 
+async function getEventByTitle(eventTitle){
+  try{
+    const event = await Event.findOne({title: eventTitle})
+    return event
+  }catch(error){
+    console.log(error)
+  }
+}
+
+app.get("/events/:title", async (req,res) => {
+  try{
+    const event = await getEventByTitle(req.params.title)
+  if(event){
+    res.json(event)
+  }else{
+    res.status(404).json({message: "Event not found"})
+  }
+  }catch(error){
+    res.json(500).json({error: "Failed to fetch events."})
+  }
+})
 const PORT = 3000
 
 app.listen(PORT , () =>{
