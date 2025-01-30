@@ -1,0 +1,153 @@
+[
+    {
+        "id": "1",
+        "title": "Tech Conference",
+        "date": "Thu Jul 13 2023",
+        "type": "Offline",
+        "startingTime": "10:00:00 AM", 
+        "endingTime": "12:00:00 PM",
+        "location": "Marketing City , 789 Marketing Avenue, City",
+        "image": "https://placehold.co/400",
+        "description": "Join us for a React workshop.",
+        "organizer": "Marketing Experts",
+        "speakers" :[{
+            "name": "Sarah Johnson",
+            "position": "Marketing Manager"
+        },{
+            "name": "Michael Brown",
+            "position": "SEO Specialist"
+        }],
+        "price": "Free",
+        "venue": "Zoom",
+        "tags": ["React", "JavaScript"],
+        "dressCode": "Casual",
+        "ageRestrictions": "All ages"
+    }, 
+    {
+        "id": "2",
+        "title": "Design  Workshop",
+        "date": "Mon Jul 10 2023",
+        "type": "Offline",
+        "startingTime": "10:00:00 AM", 
+        "endingTime": "12:00:00 PM",
+        "location": "Marketing City , 789 Marketing Avenue, City",
+        "image": "https://placehold.co/400",
+        "description": "Join us for a React workshop.",
+        "price": "Free",
+        "venue": "Zoom",
+        "tags": ["Designing"],
+        "dressCode": "Casual",
+        "ageRestrictions": "All ages",
+        "organizer": "Marketing Experts",
+        "speakers" :[{
+            "name": "Sarah Johnson",
+            "position": "Marketing Manager"
+        },{
+            "name": "Michael Brown",
+            "position": "SEO Specialist"
+        }]
+    },
+    {
+        "id": "3",
+        "title": "Marketing Seminar",
+        "date": "Tue Aug 15 2023",
+        "type": "Offline",
+        "startingTime": "10:00:00 AM", 
+        "endingTime": "12:00:00 PM",
+        "location": "Marketing City , 789 Marketing Avenue, City",
+        "image": "https://placehold.co/400",
+        "description": "Join us for a React workshop.",
+        "price": "3000",
+        "venue": "Zoom",
+        "tags": ["Marketing", "Finance"],
+        "dressCode": "Smart Casual",
+        "ageRestrictions": "18 and above",
+        "organizer": "Marketing Experts",
+        "speakers" :[{
+            "name": "Sarah Johnson",
+            "position": "Marketing Manager"
+        },{
+            "name": "Michael Brown",
+            "position": "SEO Specialist"
+        }]
+        
+    },
+    {
+        "id": "4",
+        "title": "React Meetup",
+        "date": "2025-02-15",
+        "type": "Online",
+        "startingTime": "10:00:00 AM", 
+        "endingTime": "12:00:00 PM",
+        "location": "Marketing City , 789 Marketing Avenue, City",
+        "image": "link_to_image",
+        "description": "Join us for a React workshop.",
+        "price": "Free",
+        "venue": "Zoom",
+        "tags": ["React", "JavaScript"],
+        "dressCode": "Casual",
+        "ageRestrictions": "All ages",
+        "organizer": "Marketing Experts",
+        "speakers" :[{
+            "name": "Sarah Johnson",
+            "position": "Marketing Manager"
+        },{
+            "name": "Michael Brown",
+            "position": "SEO Specialist"
+        }]
+    },
+    {
+        "id": "5",
+        "title": "React Meetup",
+        "date": "2025-02-15",
+        "type": "Offline",
+        "startingTime": "10:00:00 AM", 
+        "endingTime": "12:00:00 PM",
+        "location": "Marketing City , 789 Marketing Avenue, City",
+        "image": "link_to_image",
+        "description": "Join us for a React workshop.",
+        "price": "Free",
+        "venue": "Zoom",
+        "tags": ["React", "JavaScript"],
+        "dressCode": "Casual",
+        "ageRestrictions": "All ages",
+        "organizer": "Marketing Experts",
+        "speakers" :[{
+            "name": "Sarah Johnson",
+            "position": "Marketing Manager"
+        },{
+            "name": "Michael Brown",
+            "position": "SEO Specialist"
+        }]
+    },
+    {
+        "id": "6",
+        "title": "React Meetup",
+        "date": "2025-02-15",
+        "type": "Online",
+        "startingTime": "10:00:00 AM", 
+        "endingTime": "12:00:00 PM",
+        "location": "Marketing City , 789 Marketing Avenue, City",
+        "image": "link_to_image",
+        "description": "Join us for a React workshop.",
+        "price": "Free",
+        "venue": "Zoom",
+        "tags": ["React", "JavaScript"],
+        "dressCode": "Casual",
+        "ageRestrictions": "All ages",
+        "organizer": "Marketing Experts",
+        "speakers" :[{
+            "name": "Sarah Johnson",
+            "position": "Marketing Manager"
+        },{
+            "name": "Michael Brown",
+            "position": "SEO Specialist"
+        }]
+    }
+
+
+
+
+
+
+]

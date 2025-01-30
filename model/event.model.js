@@ -4,14 +4,15 @@ const eventSchema = new mongoose.Schema({
     title: String,
     type: String,
     date :String,
-    time: String,
+    startingTime: String,
+    endingTime: String,
     location: String,
     description: String,
     image: String,
-    creator: String,
+    organizer: String,
     dressCode: String,
     price: String,
-    ageRestriction: String,
+    ageRestrictions: String,
     tags: String,
     speakers: [{type: String}]
 })
